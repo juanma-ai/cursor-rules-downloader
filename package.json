@@ -2,7 +2,7 @@
   "name": "cursor-rules-downloader",
   "displayName": "Cursor Rules Downloader",
   "description": "An extension for Cursor and VSCode that lets you pull .cursor/rules files from a set of repositories",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "juanmaguitar",
     "url": "https://github.com/juanmaguitar"
@@ -30,7 +30,7 @@
     "commands": [
       {
         "command": "cursorRules.addRule",
-        "title": "Cursor Rules Multirepo: Add .cursor/rules"
+        "title": "Cursor Rules Downloader: Add .cursor/rules"
       }
     ],
     "configuration": {
@@ -43,7 +43,7 @@
             "type": "string"
           },
           "default": [
-            "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules"
+            "https://github.com/juanma-ai/my-cursor-rules/tree/main/.cursor/rules"
           ],
           "description": "List of GitHub API URLs to fetch cursor rules from. Rules will be displayed in the same order as repositories are listed."
         },
@@ -95,7 +95,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juanma-ai/vscode-cursor-rules-multirepo.git"
+    "url": "https://github.com/juanma-ai/cursor-rules-downloader.git"
   },
   "__metadata": {
     "size": 96770952
