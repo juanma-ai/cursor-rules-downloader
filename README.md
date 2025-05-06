@@ -23,7 +23,7 @@
 
 ## Usage
 
-- Open the command palette (Cmd+Shift+P or Ctrl+Shift+P) and type "Cursor Rules Multirepo: Add .cursor/rules".
+- Open the command palette (Cmd+Shift+P or Ctrl+Shift+P) and type "Cursor Rules Downloader: Add .cursor/rules".
 
 ![](./images/1-download-cursorrule.gif)
 
