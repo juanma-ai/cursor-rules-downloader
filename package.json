@@ -2,7 +2,7 @@
   "name": "cursor-rules-downloader",
   "displayName": "Cursor Rules Downloader",
   "description": "An extension for Cursor and VSCode that lets you pull .cursor/rules files from a set of repositories",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "juanmaguitar",
     "url": "https://github.com/juanmaguitar"
